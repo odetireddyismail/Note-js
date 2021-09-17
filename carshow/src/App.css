@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media(min-width:1200px){
+  .header{
+    background: url('./Components/Images/2.jpg');
+    max-width:100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Navbar{
+  
+    height:200px;
+    width:100%;
+    overflow: hidden;
+  }
+  
+  .Nav_text{
+   
+   
+   width:100%;
+    display:flex;
+    height: auto;
+   
+    justify-content: center;
+    } 
+    .logo img{
+      width:200px;
+      margin:10px -10px 0 0;
+     }
+     .Nav_list{
+     display: flex;
+     justify-content: flex-end;
+     padding:10px;
+     }
+     
+     .Nav_list li{
+       list-style-type: none;
+       padding:15px;
+     }
+     .Nav_list a{
+       font-size:20px ;
+      text-decoration: none;
+      color:white;
+     } 
+     .Nav_t{
+       font-size: 20px;
+       margin: 10px 0 0 30px;
+       width:500px;
+       height: 120px;
+      
+       color: rgb(250, 253, 253);
+     } 
+                                   /*%*/
+    .logo{
+      width:30%;
+      overflow:hidden;
+      
+    } 
+    .Nav_list{
+    width:70%;
+   
+    }               /*hover effects*/
+                                      
+ .Nav_list a:hover  {
+ color:red;
+ }                                 
+}
+@media(min-width:992px) and (max-width:1199px){
+
+  .header{
+    background: url('./Components/Images/2.jpg');
+    max-width:100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Navbar{
+  
+    height:200px;
+    width:100%;
+    overflow: hidden;
+  }
+  
+  .Nav_text{
+   
+   
+   width:100%;
+    display:flex;
+    height: auto;
+    justify-content: center;
+    } 
+    .logo img{
+      width:200px;
+      margin:10px -10px 0 0;
+     }
+     .Nav_list{
+     display: flex;
+     justify-content: flex-end;
+     padding:10px;
+     }
+     
+     .Nav_list li{
+       list-style-type: none;
+       padding:15px;
+     }
+     .Nav_list a{
+       font-size:20px ;
+      text-decoration: none;
+      color:white;
+     } 
+     .Nav_t{
+       font-size: 20px;
+       margin: 10px 0 0 30px;
+       width:500px;
+       height: 120px;
+      
+       color: rgb(250, 253, 253);
+     } 
+                                   /*%*/
+    .logo{
+      width:30%;
+      overflow:hidden;
+      
+    } 
+    .Nav_list{
+    width:70%;
+   
+    }               /*hover effects*/
+                                      
+ .Nav_list a:hover  {
+ color:red;
+ } 
+}
+@media(min-width:768px)and(max-width:991px){
+
+}
+@media(min-width:480px)and(max-width:767px){
+
+}
+
+  
+
+  
+
+ 
